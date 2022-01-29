@@ -11,7 +11,7 @@ int main() {
 	for (int i = 0; i < n - 1; i++) {
 		cin >> a[i];
 	}
-	a[n - 1] = 0; // don't forget to initialize the (n - 1)-th cell
+	a[n - 1] = 0; // don't forget to initialize the (n - 1)-th cell to 0 (since it can't reach any cell)
 	bool checker = false;
 	for (int i = 0; i < n;) {
 		if (i == t - 1) {
